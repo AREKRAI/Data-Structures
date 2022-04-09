@@ -10,3 +10,4 @@ At most they should be used as a reference on how an actual implementation might
 
 ## What's implemented?
 - Entity-Component framework
+- Hash table
