@@ -2,14 +2,14 @@
 
 Entity Registry::createEntity()
 {
-    if (entities.size() == 0)
+    if (m_entities.size() == 0)
     {
-        entities.push_back({0});
+        m_entities.push_back({0});
         return {0};
     }
     else
     {
-        entities.push_back(entities[entities.size() - 1].id + 1);
-        return {entities[entities.size() - 1].id};
+        m_entities.push_back(m_entities[m_entities.size() - 1].id + 1);
+        return {m_entities[m_entities.size() - 1].id};
     }
 }
